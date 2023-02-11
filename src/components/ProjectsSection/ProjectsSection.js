@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from "react";
+import Loading from "../Loading/Loading";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import "./ProjectsSection.css";
 const ProjectsSection = () => {
   const [projects, setProjects] = useState([]);
-
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
+    setLoading(true);
     fetch("./projects.json")
       .then((res) => res.json())
-      .then((data) => setProjects(data));
+      .then((data) => {
+        setLoading(false);
+        setProjects(data);
+      });
   }, []);
+
+  if (loading) {
+    return <Loading></Loading>;
+  }
 
   return (
     <div className="projects__section section__padding">

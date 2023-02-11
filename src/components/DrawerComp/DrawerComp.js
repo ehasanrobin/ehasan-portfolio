@@ -11,12 +11,12 @@ const DrawerComp = (props) => {
   };
   console.log(open);
   return (
-    <div className=" lg:hidden ">
+    <div className=" lg:hidden  text-center">
       <Drawer
         open={open}
         onClose={() => setOpen(false)}
         PaperProps={{
-          sx: { width: "30%" },
+          sx: { width: "50%" },
         }}
       >
         {menus.map((menu, index) => (
@@ -24,9 +24,13 @@ const DrawerComp = (props) => {
             component="a"
             key={index}
             href={menu.link}
-            className="bg-secondary side-bar-link border"
+            className="bg-secondary side-bar-link border text-center"
           >
-            <Link to={`/${menu.title}`} relative="path">
+            <Link
+              to={`/${menu.title}`}
+              relative="path"
+              className="mx-auto divide-y divide-slate-200"
+            >
               {menu.title}
             </Link>
           </ListItemButton>

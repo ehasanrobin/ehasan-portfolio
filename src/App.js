@@ -13,6 +13,10 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import { AccessAlarm, ThreeDRotation } from "@mui/icons-material";
 import NotFound from "./components/Not Found/NotFound";
 import Blogs from "./components/Blogs/Blogs";
+import React, { useEffect, useState, CSSProperties } from "react";
+import { ClipLoader } from "react-spinners";
+
+import Loading from "./components/Loading/Loading";
 
 const theme = createTheme({
   palette: {
@@ -24,27 +28,40 @@ const theme = createTheme({
 });
 
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
+
   return (
     <>
-      <ThemeProvider theme={theme}>
-        <Header></Header>
-        <Routes>
-          <Route path="/" exact element={<Home></Home>}></Route>
-          <Route path="/home" element={<Home></Home>}></Route>
-          <Route path="/services" element={<Services></Services>}></Route>
-          <Route path="/about" element={<About></About>}></Route>
-          <Route path="/projects" element={<Projects></Projects>}></Route>
-          <Route path="/blogs" element={<Blogs></Blogs>}></Route>
-          <Route path="/contact" element={<ContactUs></ContactUs>}></Route>
-          <Route path="*" element={<NotFound></NotFound>}></Route>
+      {loading ? (
+        <Loading></Loading>
+      ) : (
+        <ThemeProvider theme={theme}>
+          <Header></Header>
+          <Routes>
+            <Route path="/" exact element={<Home></Home>}></Route>
+            <Route path="/home" element={<Home></Home>}></Route>
+            <Route path="/services" element={<Services></Services>}></Route>
+            <Route path="/about" element={<About></About>}></Route>
+            <Route path="/projects" element={<Projects></Projects>}></Route>
+            <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+            <Route path="/contact" element={<ContactUs></ContactUs>}></Route>
+            <Route path="*" element={<NotFound></NotFound>}></Route>
 
-          <Route
-            path="/project/:id"
-            element={<ProjectComp></ProjectComp>}
-          ></Route>
-        </Routes>
-        <Footer></Footer>
-      </ThemeProvider>
+            <Route
+              path="/project/:id"
+              element={<ProjectComp></ProjectComp>}
+            ></Route>
+          </Routes>
+          <Footer></Footer>
+        </ThemeProvider>
+      )}
     </>
   );
 }

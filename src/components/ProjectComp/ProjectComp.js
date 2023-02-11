@@ -1,19 +1,29 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
+import Loading from "../Loading/Loading";
 import "./ProjectComp.css";
 const ProjectComp = () => {
   const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState([]);
   const id = useParams();
 
   useEffect(() => {
+    setLoading(true);
     fetch("../projects.json")
       .then((res) => res.json())
-      .then((data) => setProjects(data));
+      .then((data) => {
+        setLoading(false);
+        setProjects(data);
+      });
   }, []);
+
   const singleProject = projects?.find(
     (project) => project.id === parseInt(id.id)
   );
-  console.log(singleProject);
+  if (loading) {
+    return <Loading></Loading>;
+  }
+
   return (
     <div className="section__padding single__project">
       <div className="container">
