@@ -1,0 +1,62 @@
+.section__padding {
+  padding: 60px 0;
+}
+.projects__section {
+  min-height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(33, 32, 33, 0.847),
+      rgba(21, 21, 21, 0.896)
+    ),
+    url("../../images/amin-hasani-O-C93qj3ua8-unsplash.jpg");
+  background-size: cover;
+}
+
+.img-box {
+  position: relative;
+  overflow: hidden;
+  max-height: 350px;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.img-box img {
+  transition: all 1s;
+  width: 100%;
+  height: auto;
+}
+
+.img-box-content h4 {
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+.content {
+  background: #f62746;
+  transition: all 1s;
+  opacity: 1;
+  visibility: hidden;
+  position: absolute;
+  height: 94%;
+  top: 10px;
+  left: 28px;
+  width: 85%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.my-photo-box:hover .content {
+  visibility: visible;
+  opacity: 1;
+}
+.my-photo-box:hover .img-box img {
+  transform: scale(1.2);
+}
+.card.card-compact.bg-base-100.shadow-xl img {
+  height: 204px !important;
+  object-fit: cover;
+  object-position: top;
+  transition: all 0.5s;
+}
+.card:hover img {
+  transform: scale(1.1);
+}

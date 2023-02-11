@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "title": "Doctor's Portal",
+    "author": "md shaiful ahasan",
+    "technology": [
+      "html",
+      "css",
+      "tailwind css",
+      "react js",
+      "express js",
+      "node js",
+      "mongodb",
+      "vercel"
+    ],
+    "description": "A doctor's appointment is a scheduled meeting with a medical professional for the purpose of diagnosing and treating health problems. During an appointment, a doctor will take a medical history, perform a physical examination, and may order tests to help with a diagnosis. It's important to arrive prepared with questions and to communicate any symptoms and concerns. Regular doctor appointments can help maintain good health and catch any potential issues early.",
+    "overview": [
+      "There are two types of user login systems, using email/password and using a google account with Firebase Authentication system.",
+      "There is a dashboard section, based on the normal user & admin role.",
+      "A normal user can book doctor's appoointment, manage his bookings and post a review.",
+      "An admin can manage all bookings, add or remove a Bookings.",
+      "Admin can make a new admin by providing an email address.",
+      "user can make payment using stripe"
+    ],
+    "live_link": "https://doctors-portal-3ceba.web.app/",
+    "client_side": "https://github.com/ehasanrobin/doctors-portal-client",
+    "server_side": "https://github.com/ehasanrobin/doctors-portal-server",
+    "thumbnail": "https://i.ibb.co/cyt5rVB/doctors-portal-thumbnail.png"
+  },
+  {
+    "id": 2,
+    "title": "arrowai repaintal website",
+    "author": "md shaiful ahasan",
+    "technology": [
+      "html",
+      "css",
+      "tailwind css",
+      "react js",
+      "express js",
+      "node js",
+      "mongodb",
+      "vercel"
+    ],
+    "description": "Repainting is the process of applying a fresh coat of paint to a surface to enhance its appearance and protect it from damage. It's an easy and cost-effective way to give a room or object a new look. The key to successful repainting is proper preparation and application techniques.",
+    "overview": [
+      "There are two types of user login systems, using email/password and using a google/github/facebook account with Firebase Authentication system.",
+      "There is a dashboard section, based on the normal user & admin role.",
+      "A normal user can place an order, manage his orders and post a review.",
+      "An admin can manage all orders, add or remove a product.",
+      "Admin can make a new admin by providing an email address."
+    ],
+    "live_link": "https://repaining-74be9.web.app/",
+    "client_side": "https://github.com/ehasanrobin/Repaint-client-side",
+    "server_side": "https://github.com/ehasanrobin/Repaint-server-side",
+    "thumbnail": "https://i.ibb.co/z6bx4fb/Arrowaithumbnail.png"
+  },
+  {
+    "id": 3,
+    "title": "Car Dealer website",
+    "author": "md shaiful ahasan",
+    "technology": [
+      "html",
+      "css",
+      "react js",
+      "express js",
+      "node js",
+      "mongodb",
+      "vercel"
+    ],
+    "description": "Car online shopping refers to the process of purchasing a vehicle through an online platform, such as a dealership's website or a car-selling marketplace. This allows consumers to browse and compare cars from the comfort of their own home, without the pressure of a salesperson. Online shopping also provides a convenient and efficient way to research specifications, compare prices, and complete transactions. However, it's important to carefully read the details and fine print before making a purchase, and to thoroughly research the seller's reputation.",
+    "overview": [
+      "There are two types of user login systems, using email/password and using a google/github/facebook account with Firebase Authentication system.",
+      "Car Dealer Warehouse Management System",
+      "A normal user can place an order, manage his orders and post a review.",
+      "An admin can manage all orders, add or remove a product."
+    ],
+    "live_link": "https://car-dealer-97ed8.web.app/",
+    "client_side": "https://github.com/ehasanrobin/car-dealer-client",
+    "server_side": "https://github.com/ehasanrobin/car-dealer-server",
+    "thumbnail": "https://i.ibb.co/Q6zxSSm/car-deader-thumbnail.png"
+  },
+  {
+    "id": 4,
+    "title": "netflix clone",
+    "author": "md shaiful ahasan",
+    "technology": ["html", "css", "react js", "netlify"],
+    "description": "Netflix is a popular streaming service that offers an extensive library of movies, TV shows, documentaries, and more. It allows users to watch content on their TV",
+    "overview": [
+      "Netflix home page design",
+      "TMBD API with dynamic movies",
+      "dynamic slider"
+    ],
+    "live_link": "https://relaxed-klepon-f4ec0e.netlify.app/",
+    "client_side": "https://github.com/ehasanrobin/netflix-clone",
+
+    "thumbnail": "https://i.ibb.co/1232RKk/Netflix-thumbnail.png"
+  },
+  {
+    "id": 5,
+    "title": "Mobile app",
+    "author": "md shaiful ahasan",
+    "technology": ["html", "css", "javascript", "netlify"],
+    "description": "A mobile app is a software application designed to run on a mobile device, such as a smartphone or tablet. Mobile apps can be downloaded from app stores, such as the Apple App Store or Google Play Store, and can perform a variety of tasks, including games, social media, banking, shopping, and more. Mobile apps offer users convenience and quick access to information and services on-the-go. Developers are constantly creating new and innovative apps to meet the increasing demand for mobile technology.",
+    "overview": [
+      "Landing page with 100% responsive",
+      "css animations",
+      "eye-catching design"
+    ],
+    "live_link": "https://ehasanrobin.github.io/ehasan-app/",
+    "client_side": "https://github.com/ehasanrobin/ehasan-app",
+
+    "thumbnail": "https://i.ibb.co/Rh5TYnc/shalaapp-thumbnail.png"
+  },
+  {
+    "id": 6,
+    "title": "app land",
+    "author": "md shaiful ahasan",
+    "technology": ["html", "css", "javascript", "netlify"],
+    "description": "A mobile app is a software application designed to run on a mobile device, such as a smartphone or tablet. Mobile apps can be downloaded from app stores, such as the Apple App Store or Google Play Store, and can perform a variety of tasks, including games, social media, banking, shopping, and more. Mobile apps offer users convenience and quick access to information and services on-the-go. Developers are constantly creating new and innovative apps to meet the increasing demand for mobile technology.",
+    "overview": [
+      "Landing page with 100% responsive",
+      "css animations",
+      "eye-catching design"
+    ],
+    "live_link": "https://ehasanrobin.github.io/app-land/",
+    "client_side": "https://github.com/ehasanrobin/app-land",
+    "thumbnail": "https://i.ibb.co/28V5BWL/applandthumbnail.png"
+  }
+]

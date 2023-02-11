@@ -1,0 +1,38 @@
+.contents {
+  margin: auto;
+  padding: 3em 0px;
+}
+
+.contents ul {
+}
+
+.contents ul li {
+  display: inline-block;
+  margin-right: 20px;
+  /* border: 1px solid #ddd; */
+  color: #fff;
+  padding: 0.5em;
+  text-align: center;
+  /* border-radius: 30px; */
+  height: 40px;
+  width: 40px;
+  transition: 1s ease;
+}
+
+.contents ul li a {
+  font-size: 0.9rem;
+  color: #728595;
+  transition: all 1s;
+  transform-origin: bottom;
+  display: block;
+  margin-top: 0px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 21px;
+}
+.footer {
+  background-color: #000;
+}

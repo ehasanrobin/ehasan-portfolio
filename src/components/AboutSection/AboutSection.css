@@ -1,0 +1,56 @@
+.about-img img {
+  max-width: 400px;
+  opacity: 0.6;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 1px 20px;
+  margin: auto;
+}
+.about-section {
+  background-color: var(--ash);
+  min-height: 90vh;
+}
+h2 {
+  margin-top: 0.5em;
+  color: var(--white) !important;
+  font-size: 3.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h2 span {
+  color: var(--pink);
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  color: var(--white) !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: var(--pink) !important;
+  border-bottom: var(--pink);
+}
+.css-1aquho2-MuiTabs-indicator {
+  background-color: var(--pink) !important;
+}
+.css-1wf8b0h-MuiTabs-flexContainer {
+  justify-content: flex-start !important;
+}
+.main__skill {
+  color: var(--silver);
+}
+.about-section p,
+.about-section li {
+  color: var(--silver);
+}
+.tab-content-box {
+  height: 250px;
+}
+a.btn.view-btn {
+  background: var(--pink);
+  border: 1px solid var(--pink);
+}
+button.btn.view-btn:hover {
+  background: transparent;
+  transition: all 0.5s easy;
+}
+.tab-btn {
+  color: #fff !important;
+}

@@ -1,0 +1,12 @@
+.thumbnail-img img {
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+}
+.single__project {
+  background-color: var(--ash);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,44 @@
+.logo {
+  max-width: 150px;
+}
+.header-nav {
+  background-color: black;
+  z-index: 100;
+  position: relative;
+}
+.menu li a {
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+}
+.menu li a:hover {
+  color: var(--pink);
+  transition: 0.5s;
+}
+
+.menu li a::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0;
+  background: var(--pink);
+  bottom: 5px;
+  right: 0;
+  transition: 0.5s;
+}
+.menu li a::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0;
+  background: var(--pink);
+  bottom: 5px;
+  left: 0;
+  transition: 0.5s;
+}
+.menu li a:hover::after {
+  width: 50%;
+}
+.menu li a:hover::before {
+  width: 50%;
+}

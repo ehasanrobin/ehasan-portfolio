@@ -1,0 +1,52 @@
+.contact-section {
+  background-color: var(--ash);
+}
+.hire-me-box h4 {
+  color: #fff;
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+.hire-me-box h4 span {
+  color: #f62746;
+  text-transform: lowercase;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.hire-me-box p {
+  font-weight: 800;
+  color: #728595;
+  text-align: left;
+  margin-top: 10px;
+}
+.hire-me-box span {
+  color: #fff;
+  font-weight: 600;
+}
+.hire-me-img img {
+  opacity: 0.5;
+  /* margin: 0 59px; */
+  border-radius: 10px;
+  box-shadow: -2px 2px 1px 20px;
+  margin-top: 20px;
+}
+.hire-me-img {
+  max-width: 400px;
+  margin: auto;
+}
+.textfield {
+  background-color: #000;
+  color: green;
+}
+.sendBtn {
+  background: var(--pink) !important;
+  color: #fff !important;
+  border: 1px solid var(--pink) !important;
+}
+.sendBtn:hover {
+  background-color: transparent !important;
+}
+form.contact-form.p-3 input,
+form.contact-form.p-3 textarea {
+  color: #fff;
+}

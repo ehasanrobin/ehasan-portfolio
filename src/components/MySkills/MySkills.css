@@ -1,0 +1,21 @@
+.skills-section {
+  background-color: rgb(48 46 47);
+  padding: 60px 0;
+}
+.skills-title {
+  color: var(--silver);
+}
+.skill-box {
+  padding: 20px;
+  border-bottom: 4px solid transparent;
+  transition: 0.5s;
+  color: var(--white);
+}
+.skill-logo {
+  max-width: 52px;
+  border-radius: 13px;
+  overflow: hidden;
+}
+.skill-box:hover {
+  border-bottom: 4px solid var(--pink);
+}
