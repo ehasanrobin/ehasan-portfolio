@@ -17,7 +17,7 @@ const ProjectComp = () => {
   return (
     <div className="section__padding single__project">
       <div className="container">
-        <div className="grid grid-cols-2 gap-5 items-center">
+        <div className="grid md:grid-cols-2 gap-5 items-center">
           <div className="thumbnail-img">
             <img src={singleProject?.thumbnail} alt="" />
           </div>

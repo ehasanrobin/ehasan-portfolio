@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer section__padding ">
       <div className="container ">
         <div className="contents ">
-          <ul>
+          <ul className="mx-auto">
             <li>
               <a href="https://www.facebook.com/ehasan711">
                 <i className="fab fa-facebook-f"></i>
@@ -28,7 +28,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <p className="text-white mx-auto">
+        <p className="text-white mx-auto mt-4">
           Copyright © 2022 Md.Shaiful Ahasan. All Rights Reserved.
         </p>
       </div>
