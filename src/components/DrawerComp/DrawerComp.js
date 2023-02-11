@@ -1,5 +1,6 @@
 import { Drawer, ListItemButton, ListItemText } from "@mui/material";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 const DrawerComp = (props) => {
   const [open, setOpen] = useState(false);
   const { menus } = props;
@@ -25,7 +26,9 @@ const DrawerComp = (props) => {
             href={menu.link}
             className="bg-secondary side-bar-link border"
           >
-            <ListItemText primary={menu.title} />
+            <Link to={`/${menu.title}`} relative="path">
+              {menu.title}
+            </Link>
           </ListItemButton>
         ))}
       </Drawer>
