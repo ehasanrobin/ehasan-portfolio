@@ -1,20 +1,18 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Header from "./components/Header/Header";
-import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home/Home";
-import Services from "./components/Services/Services";
 import { createTheme, ThemeProvider } from "@mui/material";
-import ProjectComp from "./components/ProjectComp/ProjectComp";
-import Footer from "./components/Footer/Footer";
+import React, { useEffect, useState } from "react";
+import AnimatedCursor from "react-animated-cursor";
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
 import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
-import ContactUs from "./components/ContactUs/ContactUs";
-import { AccessAlarm, ThreeDRotation } from "@mui/icons-material";
-import NotFound from "./components/Not Found/NotFound";
 import Blogs from "./components/Blogs/Blogs";
-import React, { useEffect, useState, CSSProperties } from "react";
-import { ClipLoader } from "react-spinners";
+import ContactUs from "./components/ContactUs/ContactUs";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
+import NotFound from "./components/Not Found/NotFound";
+import ProjectComp from "./components/ProjectComp/ProjectComp";
+import Projects from "./components/Projects/Projects";
+import Services from "./components/Services/Services";
 
 import Loading from "./components/Loading/Loading";
 
@@ -43,6 +41,27 @@ function App() {
         <Loading></Loading>
       ) : (
         <ThemeProvider theme={theme}>
+          <AnimatedCursor
+            innerSize={15}
+            outerSize={15}
+            color="193, 11, 111"
+            outerAlpha={0.2}
+            innerScale={0.7}
+            outerScale={5}
+            clickables={[
+              "a",
+              'input[type="text"]',
+              'input[type="email"]',
+              'input[type="number"]',
+              'input[type="submit"]',
+              'input[type="image"]',
+              "label[for]",
+              "select",
+              "textarea",
+              "button",
+              ".link",
+            ]}
+          />
           <Header></Header>
           <Routes>
             <Route path="/" exact element={<Home></Home>}></Route>

@@ -35,7 +35,7 @@ const Banner = () => {
               />
             </h1>
             <a
-              href="https://drive.google.com/file/d/1I8LA9YnhdcsXX4bLdNTrkTzKtalNkcE6/view"
+              href="https://drive.google.com/file/d/1eXZ2af-9STnHq0GD3tE1fPoBRvD0i22G/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="btn btn-outline bt-lg porfolio-btn"
